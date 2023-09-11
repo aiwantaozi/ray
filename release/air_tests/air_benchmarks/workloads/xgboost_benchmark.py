@@ -31,12 +31,12 @@ _EXPERIMENT_PARAMS = {
     "10G": {
         "data": "s3://air-example-data-2/10G-xgboost-data.parquet/",
         "num_workers": 1,
-        "cpus_per_worker": 12,
+        "cpus_per_worker": 1,
     },
     "100G": {
         "data": "s3://air-example-data-2/100G-xgboost-data.parquet/",
         "num_workers": 10,
-        "cpus_per_worker": 12,
+        "cpus_per_worker": 1,
     },
 }
 
